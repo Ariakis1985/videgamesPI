@@ -1,0 +1,129 @@
+.home_container{
+    margin:0%;
+    padding: 2%;
+    background-color: lightgray; 
+    background-image:url("../../../image/photo7.jpg"); 
+    justify-content: center;
+    background-size: 100% 100%;
+    border: 2px solid transparent;
+}
+
+.home_title{
+    font-size: 33px;
+    font-family:'Courier New', Courier, monospace;
+    /*padding-left: 300px;
+    /*margin:67px;
+    padding-top: -15px;
+    color:rgba(8, 8, 8, 0.87);
+     font-family: arial;
+     border: 2px solid red;
+     background-color: rgba(0, 140, 255, 0.74);
+     border-radius: 318px; */
+     color: #0f9bb4ee;
+     background-color: transparent;
+     letter-spacing: .20em;
+     text-shadow: 
+       1px -1px 0 #767676;
+      margin-left: 180px;
+      text-shadow: 3px 4px 3px rgb(0, 0, 0);
+ }
+
+ .home_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home_controller{
+    display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid transparent;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 240px;
+  padding-right: 140px;
+  width: 210px;
+}
+
+.button_1{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 210px;
+    margin-left: 70px;
+    position: absolute;
+    top: 190px;
+    left: -18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_2{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 210px;
+    margin-left:280px;
+    position: absolute;
+    top: 190px;
+    left: -18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_3{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 210px;
+    margin-left: 490px;
+    position: absolute;
+    top: 190px;
+    left: -18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_4{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 210px;
+    margin-left: 700px;
+    position: absolute;
+    top: 190px;
+    left: -18px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button_refresh{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 200px;
+    margin-left: 500px;
+    position: absolute;
+    top: 240px;
+    left: 562px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 2px solid rgba(2, 160, 172, 0.651);
+}
+
+.button_videogame{
+    color: white;
+    background-color: rgba(3, 3, 3, 0.76);
+    width: 180px;
+    margin-left: 1100px;
+    position: absolute;
+    top: 190px;
+    left: -30px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 2px solid rgba(2, 160, 172, 0.651);
+}
+
+

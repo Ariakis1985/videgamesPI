@@ -1,0 +1,28 @@
+.paginado{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid transparent;
+}
+
+.number{
+    border:1px solid blue;
+    background-color: rgba(3, 3, 3, 0.76);;
+    color: white;
+    border-radius: 5px transparent;
+}
+
+.paginado_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:35px;   
+}
+
+.number{
+    border: 2px solid black;
+    width: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

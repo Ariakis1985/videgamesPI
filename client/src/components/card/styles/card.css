@@ -1,0 +1,37 @@
+.card{
+    width:180px;
+    height: 220px;
+    background-color: rgba(3, 3, 3, 0.76);
+    box-shadow: -0.8em 0 0.3em lightgray(53,30,30, 0.2);
+    margin: 20px;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card_info{
+    color:rgb(120, 193, 241);
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.card_name{
+    color:chartreuse;
+}
+
+.info{
+    margin: 0px;
+}
+
+.image{
+    width: 180px;
+    height: 200px;
+}

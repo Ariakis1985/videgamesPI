@@ -1,0 +1,80 @@
+.game_container{
+    height: 100%;
+    padding: 8.7%;
+    background-color: lightgray;
+    background-image: url("../../../image/photo10.jpg");   
+    justify-content: center;
+    background-size: 100% 100%;
+    border: 2px solid transparent;
+}
+
+.game_creator{
+    font-size: 43px;
+    font-family:'Courier New', Courier, monospace;
+    /*padding-left: 300px;
+    /*margin:67px;
+    padding-top: -15px;
+    color:rgba(8, 8, 8, 0.87);
+     font-family: arial;
+     border: 2px solid red;
+     background-color: rgba(0, 140, 255, 0.74);
+     border-radius: 318px; */
+     color: #07d7fcd7;
+     background-color: transparent;
+     letter-spacing: .20em;
+     text-shadow: 
+       1px -1px 0 #767676;
+      margin-left: 260px;
+      text-shadow: 2px 1px 1px rgb(0, 0, 0);
+      position: absolute;
+      top: 10px;
+}
+
+.button{
+    color: rgb(244, 243, 252);
+    background-color: rgb(28, 14, 107);
+    width: 130px;
+    margin-left: 1010px;
+    position: absolute;
+    top: 120px;
+    left: -400px;
+    border-bottom-color: blanchedalmond;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.game_creators{
+    color: #030000;
+    text-shadow: 1px 1px 1px rgb(0, 255, 213);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.game_input{
+    margin: 1%;
+    display: flex;
+}
+
+.button_creator{
+    color: rgb(244, 243, 252);
+    background-color: rgb(28, 14, 107);
+    width: 130px;
+    margin-left: 1010px;
+    position: absolute;
+    top: 540px;
+    left: -410px;
+    border-bottom-color: blanchedalmond;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.err_created{
+    color: rgb(248, 232, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(241, 9, 9);
+}
+
+
+.game_container{
+    color:rgb(251, 255, 0);
+}

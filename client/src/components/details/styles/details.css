@@ -1,0 +1,47 @@
+.details_container{
+    margin:0%;
+    padding: 9.2%;
+    background-color: lightgray;
+    background-image: url("../../../image/photo6.jpg");  
+    justify-content: center;
+    background-size: 100% 100%;
+    border: 2px solid transparent;
+    font-family:'Courier New', Courier, monospace
+}
+
+.games{
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    border-radius: 10rem;
+}
+
+.details{
+    color: rgba(98, 163, 98, 0.767);
+    text-shadow: 1px 1px 0px rgb(11, 87, 90);
+}
+
+.details_info{
+    color:rgba(137, 43, 226, 0.781);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.details_button{
+    color: rgb(244, 243, 252);
+    background-color: rgb(28, 14, 107);
+    width: 130px;
+    margin-left: 1010px;
+    position: absolute;
+    top: 60px;
+    left: -410px;
+    border-bottom-color: blanchedalmond;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.details_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
